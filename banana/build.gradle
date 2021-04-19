@@ -1,0 +1,24 @@
+plugins {
+    id 'application'
+}
+
+group 'com.clari'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+application {
+    mainClass = 'what.Hello'
+}
+
+println "I'm in banana"
+
+//dependencies {
+//    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+//    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+//}
+//
+//test {
+//    useJUnitPlatform()
+//}
